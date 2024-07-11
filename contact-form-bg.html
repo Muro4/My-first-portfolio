@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="contact-form-bg.css" />
+    <title>Контакти</title>
+    <link rel="icon" href="imgs/logo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <section class="contact">
+      <a href="main.html">X</a>
+      <h2>Сържете се</h2>
+
+      <form
+        action="https://formsubmit.co/mariyanbozurov26@itpg-varna.bg"
+        method="POST"
+      >
+        <div class="input-box">
+          <div class="input-field field">
+            <input
+              type="text"
+              name="name"
+              required
+              placeholder="Пълно име"
+              id="name"
+              class="item"
+              autocomplete="off"
+            />
+            <div class="error-txt">Full name can't be blank</div>
+          </div>
+          <div class="input-field field">
+            <input
+              type="email"
+              name="email"
+              required
+              placeholder="Имейл Адрес"
+              id="Email"
+              class="item"
+              autocomplete="off"
+            />
+            <div class="error-txt">Email Address can't be blank</div>
+          </div>
+        </div>
+
+        <div class="input-box">
+          <div class="input-field field">
+            <input
+              type="text"
+              name="phone"
+              required
+              placeholder="Телефонен Номер"
+              id="phone"
+              class="item"
+              autocomplete="off"
+            />
+            <div class="error-txt">Phome Number can't be blank</div>
+          </div>
+          <div class="input-field field">
+            <input
+              type="text"
+              name="subject"
+              required
+              placeholder="Тема"
+              id="Subject"
+              class="item"
+              autocomplete="off"
+            />
+            <div class="error-txt">Subject can't be blank</div>
+          </div>
+        </div>
+
+        <div class="textarea-field field">
+          <textarea
+            name="message"
+            required
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Вашето съобщение"
+            class="item"
+            autocomplete="off"
+          ></textarea>
+          <div class="error-txt">Message can't be blank</div>
+        </div>
+
+        <button type="submit">Изпрати</button>
+      </form>
+    </section>
+  </body>
+</html>
